@@ -8,7 +8,29 @@
 		<array>
 			<dict>
 				<key>#</key>
-				<string>006</string>
+				<string>016</string>
+				<key>Comment</key>
+				<string>itlwm Disabler - 10-14</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				aXRsd20=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>MatchOS</key>
+				<string>10.x,11.x,12.x,13.x,14.x</string>
+				<key>Name</key>
+				<string>com.zxystd.itlwm</string>
+				<key>Replace</key>
+				<data>
+				aXRsd3g=
+				</data>
+			</dict>
+			<dict>
+				<key>#</key>
+				<string>017</string>
 				<key>Comment</key>
 				<string>Atheros40 Disabler - 12-15</string>
 				<key>Disabled</key>
@@ -26,28 +48,6 @@
 				<key>Replace</key>
 				<data>
 				QXRoZXJvc05ld21hNDBEaXNhYmxlcg==
-				</data>
-			</dict>
-			<dict>
-				<key>#</key>
-				<string>018</string>
-				<key>Comment</key>
-				<string>VoodooPS2Keyboard Disabler - 15.x</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QXBwbGVQUzJLZXlib2FyZA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>MatchOS</key>
-				<string>15.x</string>
-				<key>Name</key>
-				<string>as.acidanthera.voodoo.driver.PS2Keyboard</string>
-				<key>Replace</key>
-				<data>
-				QXBwbGVQUzJEaXNhYmxlcg==
 				</data>
 			</dict>
 		</array>
