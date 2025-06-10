@@ -32,7 +32,7 @@
 				<key>#</key>
 				<string>017</string>
 				<key>Comment</key>
-				<string>Atheros40 Disabler - 12-15</string>
+				<string>Atheros40 Disabler - 12-26</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -42,12 +42,34 @@
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>MatchOS</key>
-				<string>12.x,13.x,14.x,15.x</string>
+				<string>12.x,13.x,14.x,15.x,26.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.AirPort.Atheros40</string>
 				<key>Replace</key>
 				<data>
-				QXRoZXJvc05ld21hNDBEaXNhYmxlcg==
+				MDRhbXdlTnNvcmVodEFfdHJvUHJpQQ==
+				</data>
+			</dict>
+			<dict>
+				<key>#</key>
+				<string>018</string>
+				<key>Comment</key>
+				<string>VoodooPS2Keyboard Disabler - 26.x</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QXBwbGVQUzJLZXlib2FyZA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>MatchOS</key>
+				<string>26.x</string>
+				<key>Name</key>
+				<string>as.acidanthera.voodoo.driver.PS2Keyboard</string>
+				<key>Replace</key>
+				<data>
+				ZHJhb2J5ZUsyU1BlbHBwQQ==
 				</data>
 			</dict>
 		</array>
