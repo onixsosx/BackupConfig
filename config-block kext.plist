@@ -72,6 +72,28 @@
 				ZHJhb2J5ZUsyU1BlbHBwQQ==
 				</data>
 			</dict>
+			<dict>
+				<key>#</key>
+				<string>018</string>
+				<key>Comment</key>
+				<string>Disable Bluetooth</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9CbHVldG9vdGhIQ0lDb250cm9sbGVy
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>MatchOS</key>
+				<string>15.x,26.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOBluetoothFamily</string>
+				<key>Replace</key>
+				<data>
+				SXhCbHVldG9vdGhIQ0lDb250cm9sbGVy
+				</data>
+			</dict>
 		</array>
 	</dict>
 </dict>
