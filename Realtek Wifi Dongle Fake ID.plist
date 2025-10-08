@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>#</key>
+				<string>020</string>
+				<key>Comment</key>
+				<string>Realtek Wifi Dongle Fake ID</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				PGludGVnZXI+NTEyNDM8L2ludGVnZXI+
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.realtek.driver.RtWlanU</string>
+				<key>Replace</key>
+				<data>
+				PGludGVnZXI+NjE4MTc8L2ludGVnZXI+
+				</data>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
