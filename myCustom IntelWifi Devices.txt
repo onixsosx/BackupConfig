@@ -1,4 +1,4 @@
-Intel Corporation Wireless 7260 8086:08b2
+Intel Corporation Wireless 7260 8086:08b1 8086:08b2
 WIFI FIRMWARE: iwm-7260-17
 BLUETOOTH FIRMWARE: ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
 Product ID:	0x07dc
